@@ -92,12 +92,12 @@ header {
     color: #FFFFFF;
 }
 
-.search i {
+.search svg {
     position: absolute;
-    margin-top: 92px;
+    margin-top: 90px;
     margin-left: 20px;
-    font-size: 22px;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 main {
@@ -326,10 +326,9 @@ footer {
         font-size: 18px;
     }
 
-    .search i {
+    .search svg {
         margin-top: 55px;
         margin-left: 14px;
-        font-size: 20px;
     }
 
     .publication {
@@ -364,9 +363,8 @@ footer {
         padding-left: 50px;
     }
 
-    .search i {
+    .search svg {
         margin-top: 53px;
-        font-size: 18px;
     }
 
     .publication {
